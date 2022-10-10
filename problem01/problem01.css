@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to top, #73a272, #b1b1c4);
+}
+
+.calculator-grid {
+    margin: 80px 50px 50px 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 24, 24);
+}
+
+header {
+    color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.input {
+    width: 400px;
+    padding: 20px;
+    margin-left: 6px;
+    text-align: right;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.button {
+    padding: 20px 45px;
+    margin: 5px;
+    color: white;
+    background-color: rgba(161, 153, 153, 0.31);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dot {
+    font-size: 20px;
+    padding: 20px 47px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.operator {
+    background-color: rgba(161, 153, 153, 0.65);
+}
+
+.clear {
+    padding: 20px 95px;
+    background-color: red;
+}
+
+.result {
+    padding: 60px 45px;
+    background-color: rgba(24, 21, 43, 0.418);
+}
+
+.zero {
+    padding: 20px 102px;
+}

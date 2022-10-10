@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Generator</title>
+    <link rel="stylesheet" href="problem02.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="input">
+            <div class="billInput">
+                <label for="amount">Rs.</label>
+                <input type="number" id="amount" name="amount" value="50">
+            </div>
+            <div class="percentageTip">
+                <label>Tip:</label>
+                <input type="range" id="percentage" name="percentage" min="0" value="10">
+                <span id="percentageTip">10%</span>
+            </div>
+            <hr>
+        </div>
+
+        <div class="result">
+            <p id="para">Results</p>
+            <div class="tipAmount">
+                <p>Tip Amount: <span id="tipAmount"></span></p>
+            </div>
+            <div class="total">
+                <p>Total Bill with Tip: <span id="totalAmount"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="problem02.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 120px 500px 100px 500px;
+    border: 10px solid black;
+    background-color: white;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.input {
+    margin: 30px 20px 20px 40px;
+    padding: 10px;
+
+}
+
+.billInput {
+    width: 500px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    text-align: center;
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+.billInput label {
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 419.5px;
+    margin-left: 10px;
+    background-color: rgba(187, 180, 180, 0.134);
+    border-style: none;
+}
+
+.percentageTip {
+    margin: 20px 0 40px 0;
+    width: 500px;
+
+}
+
+.percentageTip input {
+    width: 332px;
+}
+
+#percentageTip {
+    padding: 8px 12px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+.percentageTip label {
+    padding: 8px 15px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+.result {
+    margin: 5px 20px 10px 40px;
+    padding: 5px;
+}
+
+#para {
+    margin: 0px 170px 20px 170px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 8px 15px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+.tipAmount {
+    width: 480px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    padding: 8px;
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+.total {
+    margin: 20px 0 20px 0;
+    width: 480px;
+    border: 1px solid rgba(187, 180, 180, 0.134);
+    padding: 8px;
+    background-color: rgba(187, 180, 180, 0.134);
+}
+
+#totalAmount,
+#tipAmount {
+    margin-left: 20px;
+}
